@@ -1,0 +1,142 @@
+cabecalho{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #ffffff;
+    background-color: #0f2da3;
+}
+
+corpo{
+    background-color: #0f2da3;
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rodape{
+    background-color: #0f2e56;
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    left:0;
+    bottom: 0;
+}
+
+.foto{
+    width: 160px;
+    height: 160px;
+    box-sizing: border-box;
+    border-radius: 49.9%;
+    border-top-left-radius: 49.9%;
+    border-top-right-radius: 49.9%;
+    border-bottom-right-radius: 49.9%;
+    border-bottom-left-radius: 49.9%;
+}
+
+.redonda{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkmagenta;
+    color: whitesmoke;
+    text-align: right;
+}
+
+.circle{
+    background-color: #0f2da3;
+    border-radius: 50%;
+}
+
+.imagem-redonda {
+    border-radius: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    
+}
+a{
+    color: #0f2e56;
+}
+ button{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+button span{
+  position: relative;
+  z-index: 2;
+}
+
+button:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #32343c;
+  transition: all .35s;
+}
+
+button:hover{
+  color: #fff;
+}
+
+button:hover:after{
+  width: 100%;
+}
+ 
+ #huerotate {filter: hue-rotate(180deg);}
+ #invert {filter: invert(100%);}
+ #grayscale {filter: grayscale(100%);}
+ 
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: white;
+    background-color: #0f2da3;
+  background-image: url(https://www.paho.org/sites/default/files/styles/max_1500x1500/public/2020-10/library-stock-image-1400x700.jpg?itok=HWcoUkYe);
+width: 100%;
+height: 100%;
+text-align: center;
+
+}
+input{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 25px;
+  border: 2px solid #ff0099;
+}
+
